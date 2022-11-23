@@ -1,0 +1,56 @@
+.card {
+    width: 100%;
+    border: 1px solid #cfd2dc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 16px;
+    display: flex;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+#activeCard {
+    border: 2px solid #E54065;
+}
+
+.card>.leftCol {
+    margin-right: 10px;
+}
+
+.card>.leftCol>.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E54065;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card>.rightCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.card>.rightCol>h4 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card>.rightCol>h4:nth-child(3) {
+    margin-top: 10px;
+}
+
+.card>.rightCol>h4>span {
+    font-weight: bold;
+}
+
+.fav {
+    font-size: 13px;
+    color: #E54065 !important;
+    margin-left: 20px;
+}

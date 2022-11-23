@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.sectionOne {
+    flex: 1;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
